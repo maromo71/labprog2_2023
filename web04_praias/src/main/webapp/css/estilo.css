@@ -1,0 +1,51 @@
+/* Definição das cores principais */
+:root {
+    --cor-primaria: #2196f3;   /* Azul */
+    --cor-secundaria: #ff9800; /* Laranja */
+    --cor-fundo: #f0f0f0;      /* Cinza claro */
+}
+
+/* Estilo geral */
+body {
+    background-color: var(--cor-fundo);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--cor-primaria);
+}
+
+p {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Estilo para o carrossel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Estilo para a navegação ativa no carrossel */
+.carousel-indicators .active {
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+/* Estilo para links */
+a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
